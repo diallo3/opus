@@ -1,0 +1,31 @@
+// 1. Colors
+$s-primary:     #336699; //#0CA0B2
+$s-secondary:   #202a33; //#24B1C0
+$s-tertiary:    #376FA6; //#EEA625
+$s-accent:      #CC0000;
+$s-gray:        #585858;
+
+$s-button:      $s-accent; //#FDA853
+
+$alt-primary:   #819C9F;
+$alt-secondary: #D0011B;
+$alt-tertiary:  #4990e2;
+$alt-accent:    #D0011B;
+
+$form-background: $s-gray;
+$form-input: $black;
+
+
+
+// 2. Fonts
+
+// 3. Misc
+$logo-width: 210px;
+$logo-sm-width: 180px;
+
+
+/*--------------------------------
+	Paths
+*/
+$fontPath: "../fonts";
+$imgPath: "../img";

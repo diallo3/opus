@@ -1,0 +1,24 @@
+// Services page
+
+$services: c-services;
+$partners: c-partners;
+
+.#{$services}-container {
+	background-color: lighten($light-gray, 3%);
+	.c-content__title, .c-content__footer {
+		text-align: center;
+	} 
+	.c-content__entry {
+		@include grid-col(12);
+		@include breakpoint(large) {
+			@include grid-col(10);
+			@include grid-column-position(center);
+		}
+	}
+}
+
+.#{$partners} {
+	&__item {
+		@include grid-col(6);
+	}
+}

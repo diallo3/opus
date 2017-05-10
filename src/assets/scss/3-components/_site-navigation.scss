@@ -1,0 +1,6 @@
+// Navigations
+$menu: c-menu;
+
+.#{$menu} {
+	@include menu-nav;
+}

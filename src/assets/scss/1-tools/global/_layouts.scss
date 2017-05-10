@@ -1,0 +1,32 @@
+// Global Layouts
+
+.l-block {
+	@include zero-out;
+	width: 100%;
+	position: relative;  
+}
+
+.l-wrap {
+	@include grid-row;
+	position: relative;
+}
+
+// layouts
+.l-logo {
+	&--main {
+		@include grid-col(9);
+		@include breakpoint(large) {
+			@include grid-col(4);
+		}
+	}
+}
+
+.l-menu {
+	&--main {
+		@include grid-col(3);
+		@include breakpoint(large) {
+			@include grid-col(8);
+		}
+		
+	}
+}

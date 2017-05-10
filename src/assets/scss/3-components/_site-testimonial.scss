@@ -1,0 +1,11 @@
+/*--------------------------------
+  
+  Site testimonials
+*/
+
+$test: c-testimonial;
+
+.#{$test}-container {
+	background-color: $white;
+	padding: 1em; 
+}
